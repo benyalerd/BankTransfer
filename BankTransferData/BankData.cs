@@ -28,11 +28,7 @@ namespace BankTransferData
             cnn.Close();
         }
 
-        public void BeginTransaction()
-        {
-            cnn.BeginTransaction();
-        }
-
+       
         public BankAccount GetBankAccount(string accountNumber)
         {
             BankAccount account = new BankAccount();
@@ -98,6 +94,28 @@ namespace BankTransferData
                 throw ex;
             }
             
+        }
+        public bool InsertTransaction(string account,decimal amount,string transType,string terminalAcc)
+        {
+            try
+            {
+                DataSet dsResults = ExecuteDataSet(INSERT_TRANSACTION,
+                    ("accountNo", ConvertDTA(account)),
+                    ("amount", ConvertDTA(amount)),
+                     ("tranType", ConvertDTA(transType)),
+                     ("terminalAccNumber", ConvertDTA(terminalAcc)));
+
+                return true;
+            }
+            catch (SqlException)
+            {
+                return false;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
         }
         public bool UpdateBalance(decimal amount,string accountNumber)
         {

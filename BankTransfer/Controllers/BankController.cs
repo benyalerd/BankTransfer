@@ -56,6 +56,25 @@ namespace BankTransfer.Controllers
             return Ok(baseResponse);
         }
 
+        [HttpPost]
+        [Route("Transfer")]
+        public IActionResult Transfer([FromBody] TransferRequestModel request)
+        {
+
+            BaseResponse baseResponse = new BaseResponse();
+            try
+            {
+                baseResponse = _bankService.Transfer(request);
+            }
+            catch (Exception ex)
+            {
+                baseResponse.ErrorMessage = ex.Message;
+                baseResponse.ErrorCode = "005";
+                baseResponse.IsSuccess = false;
+            }
+            return Ok(baseResponse);
+        }
+
 
     }
 }

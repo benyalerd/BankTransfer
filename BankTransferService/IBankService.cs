@@ -11,5 +11,6 @@ namespace BankTransferService
     {
         BaseResponse InsertBankAccount(InsertBankAccRequest request);
         BaseResponse Deposit(DepositRequestModel request);
+        BaseResponse Transfer(TransferRequestModel request);
     }
 }
