@@ -135,6 +135,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "BankTransferDTO": "1.0.0",
           "System.Data.SqlClient": "4.8.5"
         },
         "compile": {
@@ -142,6 +143,19 @@
         },
         "runtime": {
           "bin/placeholder/BankTransferData.dll": {}
+        }
+      },
+      "BankTransferDTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/BankTransferDTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankTransferDTO.dll": {}
         }
       }
     }
@@ -461,6 +475,11 @@
       "type": "project",
       "path": "../BankTransferData/BankTransferData.csproj",
       "msbuildProject": "../BankTransferData/BankTransferData.csproj"
+    },
+    "BankTransferDTO/1.0.0": {
+      "type": "project",
+      "path": "../BankTransferDTO/BankTransferDTO.csproj",
+      "msbuildProject": "../BankTransferDTO/BankTransferDTO.csproj"
     }
   },
   "projectFileDependencyGroups": {

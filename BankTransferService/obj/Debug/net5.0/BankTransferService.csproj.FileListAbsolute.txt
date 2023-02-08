@@ -1,0 +1,17 @@
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\bin\Debug\net5.0\BankTransferService.deps.json
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\bin\Debug\net5.0\BankTransferService.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\bin\Debug\net5.0\ref\BankTransferService.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\bin\Debug\net5.0\BankTransferService.pdb
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\bin\Debug\net5.0\BankTransferData.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\bin\Debug\net5.0\BankTransferDTO.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\bin\Debug\net5.0\BankTransferData.pdb
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\bin\Debug\net5.0\BankTransferDTO.pdb
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\obj\Debug\net5.0\BankTransferService.csproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\obj\Debug\net5.0\BankTransferService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\obj\Debug\net5.0\BankTransferService.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\obj\Debug\net5.0\BankTransferService.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\obj\Debug\net5.0\BankTransferService.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\obj\Debug\net5.0\BankTransferService.csproj.CopyComplete
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\obj\Debug\net5.0\BankTransferService.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\obj\Debug\net5.0\ref\BankTransferService.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransferService\obj\Debug\net5.0\BankTransferService.pdb

@@ -21,3 +21,16 @@ C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\obj\Debug\net5.0\BankTran
 C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\obj\Debug\net5.0\ref\BankTransfer.dll
 C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\obj\Debug\net5.0\BankTransfer.pdb
 C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\obj\Debug\net5.0\BankTransfer.genruntimeconfig.cache
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\BankTransferData.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\BankTransferDTO.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\BankTransferService.dll
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\BankTransferService.pdb
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\BankTransferData.pdb
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\bin\Debug\net5.0\BankTransferDTO.pdb
+C:\Users\lenovo\source\repos\BankTransfer\BankTransfer\obj\Debug\net5.0\BankTransfer.csproj.CopyComplete

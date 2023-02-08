@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BankTransferData.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace BankTransferService
 {
     public interface IBankService
     {
-
+        BaseResponse InsertBankAccount(InsertBankAccRequest request);
+        BaseResponse Deposit(DepositRequestModel request);
     }
 }

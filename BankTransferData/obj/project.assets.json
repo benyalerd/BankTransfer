@@ -130,6 +130,19 @@
             "rid": "win"
           }
         }
+      },
+      "BankTransferDTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/BankTransferDTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankTransferDTO.dll": {}
+        }
       }
     }
   },
@@ -443,10 +456,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BankTransferDTO/1.0.0": {
+      "type": "project",
+      "path": "../BankTransferDTO/BankTransferDTO.csproj",
+      "msbuildProject": "../BankTransferDTO/BankTransferDTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "BankTransferDTO >= 1.0.0",
       "System.Data.SqlClient >= 4.8.5"
     ]
   },
@@ -480,7 +499,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lenovo\\source\\repos\\BankTransfer\\BankTransferDTO\\BankTransferDTO.csproj": {
+              "projectPath": "C:\\Users\\lenovo\\source\\repos\\BankTransfer\\BankTransferDTO\\BankTransferDTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

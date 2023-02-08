@@ -1,4 +1,5 @@
-﻿using BankTransferService;
+﻿using BankTransferData.Model;
+using BankTransferService;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,46 @@ namespace BankTransfer.Controllers
         {
             _bankService = bankService;
         }
+
+
+        [HttpPost]
+        [Route("InsertBankAccount")]
+        public IActionResult InsertBankAccount([FromBody] InsertBankAccRequest request)
+        {
+
+            BaseResponse baseResponse = new BaseResponse();
+            try
+            {
+                baseResponse = _bankService.InsertBankAccount(request);
+            }
+            catch (Exception ex)
+            {
+                baseResponse.ErrorMessage = ex.Message;
+                baseResponse.ErrorCode = "005";
+                baseResponse.IsSuccess = false;
+            }
+            return Ok(baseResponse);
+        }
+
+        [HttpPost]
+        [Route("Deposit")]
+        public IActionResult Deposit([FromBody] DepositRequestModel request)
+        {
+
+            BaseResponse baseResponse = new BaseResponse();
+            try
+            {
+                baseResponse = _bankService.Deposit(request);
+            }
+            catch (Exception ex)
+            {
+                baseResponse.ErrorMessage = ex.Message;
+                baseResponse.ErrorCode = "005";
+                baseResponse.IsSuccess = false;
+            }
+            return Ok(baseResponse);
+        }
+
 
     }
 }
